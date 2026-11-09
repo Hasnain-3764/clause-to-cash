@@ -1,0 +1,95 @@
+{
+  "contractId": "creator-collab-001",
+  "textHash": "85d496e83ae6e7b8",
+  "model": "gemini-3.5-flash",
+  "extractedAt": "2026-11-09T11:55:08.247Z",
+  "contract": {
+    "contractId": "creator-collab-001",
+    "title": "CREATOR COLLABORATION AGREEMENT",
+    "payer": "Brightfold Studio LLC",
+    "parties": [
+      {
+        "id": "creator",
+        "name": "Ava Lindqvist",
+        "role": "Creator",
+        "paypalEmail": "sb-fohep53715216@personal.example.com"
+      },
+      {
+        "id": "editor",
+        "name": "Theo Marsh",
+        "role": "Editor",
+        "paypalEmail": "sb-vhgvo53714774@personal.example.com"
+      }
+    ],
+    "rules": [
+      {
+        "id": "r1",
+        "party": "creator",
+        "source": {
+          "quote": "The Creator shall receive twenty percent (20%) of Gross Revenue up to $5,000.00 in each Revenue Period, and thirty percent (30%) of Gross Revenue above $5,000.00 in that Revenue Period.",
+          "page": 2
+        },
+        "confidence": 0.98,
+        "status": "proposed",
+        "type": "tiered_split",
+        "params": {
+          "tiers": [
+            {
+              "upToCents": 500000,
+              "basisPoints": 2000
+            },
+            {
+              "upToCents": null,
+              "basisPoints": 3000
+            }
+          ]
+        }
+      },
+      {
+        "id": "r2",
+        "party": "editor",
+        "source": {
+          "quote": "The Editor shall receive five percent (5%) of Gross Revenue in each Revenue Period.",
+          "page": 2
+        },
+        "confidence": 0.99,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 500
+        }
+      },
+      {
+        "id": "r3",
+        "party": "creator",
+        "source": {
+          "quote": "Ten percent (10%) of each payment due to the Creator shall be held in a refund reserve and released sixty (60) days after the end of the Revenue Period.",
+          "page": 2
+        },
+        "confidence": 0.98,
+        "status": "proposed",
+        "type": "reserve_clawback",
+        "params": {
+          "kind": "reserve",
+          "basisPoints": 1000,
+          "releaseAfterDays": 60
+        }
+      }
+    ]
+  },
+  "flags": [],
+  "unmodeled": [
+    {
+      "id": "u1",
+      "party": "creator",
+      "quote": "The Studio may, at its discretion, pay the Creator a performance bonus for exceptional results.",
+      "page": 2,
+      "reason": "Allows for discretionary bonus payments to the creator which cannot be represented as a fixed percentage or milestone payment rule.",
+      "verified": true
+    }
+  ],
+  "usage": {
+    "inputTokens": 998,
+    "outputTokens": 2430
+  }
+}

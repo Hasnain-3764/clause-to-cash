@@ -1,0 +1,58 @@
+{
+  "name": "clause-to-cash",
+  "version": "1.0.0",
+  "description": "Contract clauses to PayPal payouts: AI-extracted payment rules, approvals, sandbox payouts and reconciliation.",
+  "scripts": {
+    "smoke": "tsx scripts/smoke-test.ts",
+    "token": "tsx scripts/01-token.ts",
+    "order": "tsx scripts/02-order.ts",
+    "payout": "tsx scripts/03-payout.ts",
+    "channel3": "tsx scripts/04-channel3.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "demo": "tsx scripts/demo.ts",
+    "revenue": "tsx scripts/capture-revenue.ts",
+    "extract": "tsx scripts/extract.ts",
+    "dev": "next dev -p ${PORT:-3100}",
+    "dev:demo": "DEMO_MODE=1 DATA_DIR=data/demo-run NEXT_DIST_DIR=.next-demo next dev -p ${PORT:-3101}",
+    "build": "next build",
+    "start": "next start -p ${PORT:-3000}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hasnain-3764/clause-to-cash.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hasnain-3764/clause-to-cash/issues"
+  },
+  "homepage": "https://github.com/Hasnain-3764/clause-to-cash#readme",
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.114",
+    "ag-grid-community": "^36.3.0",
+    "ag-grid-react": "^36.3.0",
+    "ai": "^7.0.166",
+    "dotenv": "^18.0.9",
+    "next": "^16.4.5",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "fast-check": "^4.10.2",
+    "tailwindcss": "^4.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  }
+}

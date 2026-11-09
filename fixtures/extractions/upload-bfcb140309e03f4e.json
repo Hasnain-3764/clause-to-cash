@@ -1,0 +1,85 @@
+{
+  "contractId": "podcast-test-004",
+  "textHash": "bfcb140309e03f4e",
+  "model": "gemini-3.5-flash",
+  "extractedAt": "2026-11-09T11:58:17.566Z",
+  "contract": {
+    "contractId": "podcast-test-004",
+    "title": "PODCAST CO-HOST AGREEMENT",
+    "payer": "Quiet Hours Media",
+    "parties": [
+      {
+        "id": "lead_host",
+        "name": "Priya Nair",
+        "role": "Lead Host",
+        "paypalEmail": "sb-fohep53715216@personal.example.com"
+      },
+      {
+        "id": "co_host",
+        "name": "Sam Okoro",
+        "role": "Co-Host",
+        "paypalEmail": "sb-vhgvo53714774@personal.example.com"
+      }
+    ],
+    "rules": [
+      {
+        "id": "r1",
+        "party": "lead_host",
+        "source": {
+          "quote": "The Lead Host shall receive forty percent (40%) of Sponsorship Revenue in each month.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 4000
+        }
+      },
+      {
+        "id": "r2",
+        "party": "co_host",
+        "source": {
+          "quote": "The Co-Host shall receive twenty-five percent (25%) of Sponsorship Revenue in each month.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 2500
+        }
+      },
+      {
+        "id": "r3",
+        "party": "co_host",
+        "source": {
+          "quote": "The Co-Host's monthly payment shall not exceed $2,000.00.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "cap_minimum",
+        "params": {
+          "kind": "cap",
+          "amountCents": 200000
+        }
+      }
+    ]
+  },
+  "flags": [],
+  "unmodeled": [
+    {
+      "id": "u1",
+      "party": null,
+      "quote": "If a sponsor cancels, the Network may deduct the refunded amount from the next month's payments.",
+      "page": 1,
+      "reason": "Allows discretionary offset of sponsor refunds against future monthly payments, which cannot be expressed as a standard percentage, tier, cap/minimum, or reserve.",
+      "verified": true
+    }
+  ],
+  "usage": {
+    "inputTokens": 636,
+    "outputTokens": 1632
+  }
+}

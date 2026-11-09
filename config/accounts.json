@@ -1,0 +1,9 @@
+{
+  "_note": "Sandbox account emails and roles only. No passwords. Passwords stay in .passwords (gitignored).",
+  "accounts": [
+    { "role": "business",     "label": "merchant / payout sender", "country": "US", "email": "sb-wdbnb53656244@business.example.com" },
+    { "role": "buyer-1",      "label": "buyer account 1",          "country": "US", "email": "sb-qfcbx53715178@personal.example.com" },
+    { "role": "freelancer-a", "label": "buyer account 2",          "country": "US", "email": "sb-fohep53715216@personal.example.com" },
+    { "role": "freelancer-b", "label": "buyer account 3",          "country": "US", "email": "sb-vhgvo53714774@personal.example.com" }
+  ]
+}

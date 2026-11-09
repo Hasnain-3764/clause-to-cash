@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root { color-scheme: light; }
+body { background: #f6f7f9; color: #0f172a; }
+
+mark.clause { background: #fde68a; color: inherit; border-radius: 3px; box-shadow: 0 0 0 2px #fde68a; }
+.ag-theme-c2c { --ag-font-size: 13px; }

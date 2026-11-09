@@ -1,0 +1,41 @@
+{
+  "contractId": "agency-freelancer-002",
+  "title": "Freelance Services Agreement",
+  "payer": "Harbor & Pine Creative Agency",
+  "parties": [
+    { "id": "designer", "name": "Rafael Ortiz", "role": "designer", "paypalEmail": "sb-fohep53715216@personal.example.com" },
+    { "id": "copywriter", "name": "June Okafor", "role": "copywriter", "paypalEmail": "sb-vhgvo53714774@personal.example.com" }
+  ],
+  "rules": [
+    {
+      "id": "r1", "type": "milestone_payment", "party": "designer",
+      "params": { "milestone": "Milestone 1 (Brand Kit)", "amountCents": 150000 },
+      "source": { "quote": "The Agency shall pay the Designer $1,500.00 upon acceptance of Milestone 1 (Brand Kit).", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r2", "type": "milestone_payment", "party": "designer",
+      "params": { "milestone": "Milestone 2 (Website Launch)", "amountCents": 200000 },
+      "source": { "quote": "The Agency shall pay the Designer $2,000.00 upon acceptance of Milestone 2 (Website Launch).", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r3", "type": "cap_minimum", "party": "designer",
+      "params": { "kind": "cap", "amountCents": 300000 },
+      "source": { "quote": "Total payments to the Designer under this Agreement shall not exceed $3,000.00 in any calendar month.", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r4", "type": "percentage_split", "party": "copywriter",
+      "params": { "basisPoints": 800 },
+      "source": { "quote": "The Copywriter shall receive eight percent (8%) of Project Revenue collected in each calendar month.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r5", "type": "cap_minimum", "party": "copywriter",
+      "params": { "kind": "minimum", "amountCents": 25000 },
+      "source": { "quote": "In any calendar month in which Project Revenue is collected, the Copywriter shall receive no less than $250.00.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+=== Page 1 ===
+FREELANCE SERVICES AGREEMENT
+Contract ID: agency-freelancer-002
+
+SAMPLE DOCUMENT. Written for the Clause-to-Cash hackathon demo. All names are fictional and
+every PayPal address below is a PayPal sandbox test account.
+
+This Freelance Services Agreement is made between Harbor & Pine Creative Agency (the "Agency")
+and the freelancers named below, for the "Saltmarsh Coffee rebrand" project (the "Project").
+
+1. FREELANCERS
+1.1 Designer: Rafael Ortiz (the "Designer"). PayPal: sb-fohep53715216@personal.example.com
+1.2 Copywriter: June Okafor (the "Copywriter"). PayPal: sb-vhgvo53714774@personal.example.com
+
+2. SCOPE
+2.1 The Designer will produce the brand kit and the website design.
+2.2 The Copywriter will write all website and packaging copy.
+2.3 "Project Revenue" means fees the Agency actually collects from its client for the Project.
+
+3. DESIGNER FEES
+3.1 The Agency shall pay the Designer $1,500.00 upon acceptance of Milestone 1 (Brand Kit).
+3.2 The Agency shall pay the Designer $2,000.00 upon acceptance of Milestone 2 (Website Launch).
+3.3 Total payments to the Designer under this Agreement shall not exceed $3,000.00 in any
+calendar month. Any amount above that limit rolls over to the following month.
+
+=== Page 2 ===
+4. COPYWRITER FEES
+4.1 The Copywriter shall receive eight percent (8%) of Project Revenue collected in each
+calendar month.
+4.2 In any calendar month in which Project Revenue is collected, the Copywriter shall receive
+no less than $250.00.
+
+5. EXPENSES
+5.1 Pre-approved expenses are reimbursed at cost against receipts. Expenses are not part of
+the fees above.
+
+6. PAYMENT
+6.1 The Agency pays freelancers by PayPal in US dollars within fifteen (15) days of the end of
+each calendar month.
+
+7. GENERAL
+7.1 Each freelancer is an independent contractor. This Agreement is governed by the laws of
+the State of New York.
+
+Signed: Harbor & Pine Creative Agency / Rafael Ortiz / June Okafor

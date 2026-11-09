@@ -1,0 +1,97 @@
+{
+  "contractId": "music-split-003",
+  "textHash": "14da853eda898f79",
+  "model": "gemini-3.5-flash",
+  "extractedAt": "2026-11-09T11:55:34.661Z",
+  "contract": {
+    "contractId": "music-split-003",
+    "title": "Master Recording Royalty Split Agreement",
+    "payer": "Lantern Row Records",
+    "parties": [
+      {
+        "id": "artist",
+        "name": "Nova Reyes",
+        "role": "Artist",
+        "paypalEmail": "sb-fohep53715216@personal.example.com"
+      },
+      {
+        "id": "producer",
+        "name": "Kenji Adebayo",
+        "role": "Producer",
+        "paypalEmail": "sb-vhgvo53714774@personal.example.com"
+      },
+      {
+        "id": "guitarist",
+        "name": "Lou Park",
+        "role": "Session Guitarist",
+        "paypalEmail": "sb-gtrpk00000000@personal.example.com"
+      }
+    ],
+    "rules": [
+      {
+        "id": "r1",
+        "party": "artist",
+        "source": {
+          "quote": "The Artist shall receive fifty percent (50%) of Gross Receipts.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 5000
+        }
+      },
+      {
+        "id": "r2",
+        "party": "producer",
+        "source": {
+          "quote": "The Producer shall receive thirty percent (30%) of Gross Receipts.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 3000
+        }
+      },
+      {
+        "id": "r3",
+        "party": "guitarist",
+        "source": {
+          "quote": "The Guitarist shall receive five percent (5%) of Gross Receipts.",
+          "page": 1
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "percentage_split",
+        "params": {
+          "basisPoints": 500
+        }
+      },
+      {
+        "id": "r4",
+        "party": "artist",
+        "source": {
+          "quote": "The Label advanced the Artist $1,000.00 before release. The advance is recoupable: the Label shall withhold fifty percent (50%) of the Artist's share in each Accounting Period until the advance has been fully recouped.",
+          "page": 2
+        },
+        "confidence": 0.95,
+        "status": "proposed",
+        "type": "reserve_clawback",
+        "params": {
+          "kind": "clawback",
+          "basisPoints": 5000,
+          "outstandingCents": 100000
+        }
+      }
+    ]
+  },
+  "flags": [],
+  "unmodeled": [],
+  "usage": {
+    "inputTokens": 919,
+    "outputTokens": 1544
+  }
+}

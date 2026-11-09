@@ -1,0 +1,14 @@
+=== Page 1 ===
+PODCAST CO-HOST AGREEMENT
+Contract ID: podcast-test-004
+SAMPLE DOCUMENT written for testing. Fictional names; sandbox PayPal accounts only.
+
+Between Quiet Hours Media (the "Network") and the hosts below, for the show "Night Shift Radio".
+1. Host A: Priya Nair (the "Lead Host"). PayPal: sb-fohep53715216@personal.example.com
+2. Host B: Sam Okoro (the "Co-Host"). PayPal: sb-vhgvo53714774@personal.example.com
+
+3. SPONSORSHIP REVENUE
+3.1 The Lead Host shall receive forty percent (40%) of Sponsorship Revenue in each month.
+3.2 The Co-Host shall receive twenty-five percent (25%) of Sponsorship Revenue in each month.
+3.3 The Co-Host's monthly payment shall not exceed $2,000.00.
+3.4 If a sponsor cancels, the Network may deduct the refunded amount from the next month's payments.

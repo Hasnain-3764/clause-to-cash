@@ -1,0 +1,29 @@
+{
+  "contractId": "creator-collab-001",
+  "title": "Creator Collaboration Agreement",
+  "payer": "Brightfold Studio LLC",
+  "parties": [
+    { "id": "creator", "name": "Ava Lindqvist", "role": "creator", "paypalEmail": "sb-fohep53715216@personal.example.com" },
+    { "id": "editor", "name": "Theo Marsh", "role": "editor", "paypalEmail": "sb-vhgvo53714774@personal.example.com" }
+  ],
+  "rules": [
+    {
+      "id": "r1", "type": "tiered_split", "party": "creator",
+      "params": { "tiers": [ { "upToCents": 500000, "basisPoints": 2000 }, { "upToCents": null, "basisPoints": 3000 } ] },
+      "source": { "quote": "The Creator shall receive twenty percent (20%) of Gross Revenue up to $5,000.00 in each Revenue Period, and thirty percent (30%) of Gross Revenue above $5,000.00 in that Revenue Period.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r2", "type": "percentage_split", "party": "editor",
+      "params": { "basisPoints": 500 },
+      "source": { "quote": "The Editor shall receive five percent (5%) of Gross Revenue in each Revenue Period.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r3", "type": "reserve_clawback", "party": "creator",
+      "params": { "kind": "reserve", "basisPoints": 1000, "releaseAfterDays": 60 },
+      "source": { "quote": "Ten percent (10%) of each payment due to the Creator shall be held in a refund reserve and released sixty (60) days after the end of the Revenue Period.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    }
+  ]
+}

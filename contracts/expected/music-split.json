@@ -1,0 +1,36 @@
+{
+  "contractId": "music-split-003",
+  "title": "Master Recording Royalty Split Agreement",
+  "payer": "Lantern Row Records",
+  "parties": [
+    { "id": "artist", "name": "Nova Reyes", "role": "artist", "paypalEmail": "sb-fohep53715216@personal.example.com" },
+    { "id": "producer", "name": "Kenji Adebayo", "role": "producer", "paypalEmail": "sb-vhgvo53714774@personal.example.com" },
+    { "id": "guitarist", "name": "Lou Park", "role": "session guitarist", "paypalEmail": "sb-gtrpk00000000@personal.example.com" }
+  ],
+  "rules": [
+    {
+      "id": "r1", "type": "percentage_split", "party": "artist",
+      "params": { "basisPoints": 5000 },
+      "source": { "quote": "The Artist shall receive fifty percent (50%) of Gross Receipts.", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r2", "type": "percentage_split", "party": "producer",
+      "params": { "basisPoints": 3000 },
+      "source": { "quote": "The Producer shall receive thirty percent (30%) of Gross Receipts.", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r3", "type": "percentage_split", "party": "guitarist",
+      "params": { "basisPoints": 500 },
+      "source": { "quote": "The Guitarist shall receive five percent (5%) of Gross Receipts.", "page": 1 },
+      "confidence": 1, "status": "proposed"
+    },
+    {
+      "id": "r4", "type": "reserve_clawback", "party": "artist",
+      "params": { "kind": "clawback", "basisPoints": 5000, "outstandingCents": 100000 },
+      "source": { "quote": "the Label shall withhold fifty percent (50%) of the Artist's share in each Accounting Period until the advance has been fully recouped.", "page": 2 },
+      "confidence": 1, "status": "proposed"
+    }
+  ]
+}

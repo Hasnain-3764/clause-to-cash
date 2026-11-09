@@ -1,0 +1,10 @@
+.env
+.passwords
+node_modules/
+*.log
+.next/
+next-env.d.ts
+coverage/
+data/
+*.tsbuildinfo
+.next-demo/

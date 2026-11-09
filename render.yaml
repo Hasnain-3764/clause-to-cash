@@ -1,0 +1,19 @@
+# Render Blueprint: hosted demo runs in DEMO_MODE (fixtures only, no PayPal or Gemini keys,
+# sending payouts disabled). A public URL must not be able to move even sandbox money.
+services:
+  - type: web
+    name: clause-to-cash
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /contract
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: DEMO_MODE
+        value: "1"
+      - key: DATA_DIR
+        value: /tmp/c2c-data
+      - key: NEXT_TELEMETRY_DISABLED
+        value: "1"

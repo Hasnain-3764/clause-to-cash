@@ -1,0 +1,42 @@
+=== Page 1 ===
+MASTER RECORDING ROYALTY SPLIT AGREEMENT
+Contract ID: music-split-003
+
+SAMPLE DOCUMENT. Written for the Clause-to-Cash hackathon demo. All names are fictional and
+every PayPal address below is a PayPal sandbox test account.
+
+This Royalty Split Agreement is made between Lantern Row Records (the "Label") and the
+contributors below, for the master recording "Paper Lanterns" (the "Master").
+
+1. CONTRIBUTORS
+1.1 Artist: Nova Reyes (the "Artist"). PayPal: sb-fohep53715216@personal.example.com
+1.2 Producer: Kenji Adebayo (the "Producer"). PayPal: sb-vhgvo53714774@personal.example.com
+1.3 Session Guitarist: Lou Park (the "Guitarist"). PayPal: sb-gtrpk00000000@personal.example.com
+
+2. DEFINITIONS
+2.1 "Gross Receipts" means all streaming, download and sync income the Label actually
+receives for the Master during an Accounting Period.
+2.2 "Accounting Period" means one calendar month.
+
+3. ROYALTY SPLIT
+3.1 The Artist shall receive fifty percent (50%) of Gross Receipts.
+3.2 The Producer shall receive thirty percent (30%) of Gross Receipts.
+3.3 The Guitarist shall receive five percent (5%) of Gross Receipts.
+3.4 The Label retains the remaining fifteen percent (15%) of Gross Receipts.
+
+=== Page 2 ===
+4. ADVANCE AND RECOUPMENT
+4.1 The Label advanced the Artist $1,000.00 before release. The advance is recoupable: the
+Label shall withhold fifty percent (50%) of the Artist's share in each Accounting Period until
+the advance has been fully recouped.
+4.2 No other advance is recoupable from the Producer or the Guitarist.
+
+5. ACCOUNTING
+5.1 The Label pays all contributors by PayPal in US dollars within thirty (30) days after the
+end of each Accounting Period, together with a statement.
+
+6. GENERAL
+6.1 Credits on all releases: "Produced by Kenji Adebayo".
+6.2 This Agreement is governed by the laws of the State of California.
+
+Signed: Lantern Row Records / Nova Reyes / Kenji Adebayo / Lou Park
